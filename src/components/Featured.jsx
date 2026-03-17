@@ -6,11 +6,10 @@ export default function Featured() {
   return (
     <section className="bg-[#f4f4f4] px-6 py-24 md:px-12">
       <div className="mx-auto grid max-w-[1400px] grid-cols-1 items-center gap-12 lg:grid-cols-2">
-
         {/* LEFT IMAGE */}
         <div className="relative">
           <img
-            src={kitchen}
+            src={livingroom}
             className="h-[500px] w-full object-cover rounded-md"
           />
 
@@ -72,7 +71,6 @@ export default function Featured() {
             </button>
           </div>
         </div>
-
       </div>
     </section>
   );
