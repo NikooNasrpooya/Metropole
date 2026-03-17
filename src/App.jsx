@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './components/Navbar'
 import Header from './components/header'
+import About from './components/About'
 import Footer from './components/Footer'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navbar />
       <Header />
+      <About />
       <Footer />
 
     </>
