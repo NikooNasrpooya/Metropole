@@ -40,7 +40,7 @@ export default function Register() {
         </h2>
 
         {/* Orange line */}
-        <div className="mx-auto mt-6 h-[4px] w-24 bg-[#c77a2c]"></div>
+        <div className="mx-auto mt-6 h-1 w-24 bg-[#c77a2c]"></div>
 
         {/* Description */}
         <p className="mx-auto mt-10 max-w-3xl text-lg text-gray-600 leading-relaxed">
