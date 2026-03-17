@@ -9,6 +9,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Featured from "./components/featured";
+import Register from "./components/Register";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Projects />
       <Featured />
+      <Register />
       <Footer />
     </>
   );
