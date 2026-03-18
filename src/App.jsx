@@ -1,29 +1,27 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
+import HomePage from "./pages/homePage";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Header from "./components/header";
-import About from "./components/About";
-import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Featured from "./components/featured";
-import Register from "./components/Register";
+import RegisterPage from "./pages/RegisterPage";
+
+// function Register() {
+//   return <h1>Register Page</h1>;
+// }
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Header />
-      <About />
-      <Projects />
-      <Featured />
-      <Register />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/register" element={<RegisterPage />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

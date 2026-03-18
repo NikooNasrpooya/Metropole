@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -17,13 +18,13 @@ export default function Navbar() {
           </div>
 
           {/* Right: Nav */}
-          <nav className="hidden items-center gap-12 lg:flex">
-            <a
-              href="#"
+          <nav className="z-50 hidden items-center gap-12 lg:flex">
+            <Link
+              to="/"
               className="text-[18px] font-semibold uppercase tracking-wide text-[#d8832e] transition hover:text-[#d8832e]"
             >
               Home
-            </a>
+            </Link>
 
             <a
               href="#about"
@@ -47,12 +48,12 @@ export default function Navbar() {
               Contact
             </a>
 
-            <a
-              href="#register"
+            <Link
+              to="/register"
               className="rounded-2xl border-2 border-[#d8832e] px-6 py-3 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:bg-[#d8832e] hover:text-white"
             >
               Register
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile button */}
@@ -75,5 +76,6 @@ export default function Navbar() {
         </div>
       </div>
     </header>
-  );
+    );
 }
+  
