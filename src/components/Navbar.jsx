@@ -26,20 +26,20 @@ export default function Navbar() {
               Home
             </Link>
 
-            <a
-              href="#about"
+            <Link
+              to="/about"
               className="text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
               About
-            </a>
+            </Link>
 
-            <a
-              href="#projects"
+            <Link
+              to="/projects"
               className="flex items-center gap-1 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
               Projects
               <ChevronDown size={16} strokeWidth={2.5} />
-            </a>
+            </Link>
 
             <a
               href="#contact"

@@ -5,6 +5,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import RegisterPage from "./pages/RegisterPage";
+import AboutPage from "./pages/AboutPage";
+import Projects from "./components/Projects";
+import ContactPage from "./pages/ContactsPage";
 
 // function Register() {
 //   return <h1>Register Page</h1>;
@@ -19,6 +22,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
