@@ -34,6 +34,13 @@ export default function Navbar() {
             </Link>
 
             <Link
+              to="/hvac"
+              className="flex items-center gap-1 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
+            >
+              Building Maintenance
+            </Link>
+
+            <Link
               to="/projects"
               className="flex items-center gap-1 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
@@ -76,6 +83,5 @@ export default function Navbar() {
         </div>
       </div>
     </header>
-    );
+  );
 }
-  

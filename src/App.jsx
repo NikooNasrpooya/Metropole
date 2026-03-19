@@ -8,6 +8,7 @@ import RegisterPage from "./pages/RegisterPage";
 import AboutPage from "./pages/AboutPage";
 import Projects from "./components/Projects";
 import ContactPage from "./pages/ContactPage";
+import HvacPage from "./pages/HvacPage";
 
 // function Register() {
 //   return <h1>Register Page</h1>;
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/hvac" element={<HvacPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
