@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Content */}
       <div className=" relative z-10 flex flex-col items-center text-center text-white px-6">
         <div className="animate-fadeInUp">
-          <h1 className=" text-4xl md:text-6xl lg:text-7xl font-light tracking-wide">
+          <h1 className=" text-2xl md:text-4xl lg:text-5xl font-light tracking-wide">
           WE BUILD OUTSTANDING COMMUNITIES
         </h1>
 

@@ -21,28 +21,28 @@ export default function Navbar() {
           <nav className="z-50 hidden items-center gap-12 lg:flex">
             <Link
               to="/"
-              className="text-[18px] font-semibold uppercase tracking-wide text-[#d8832e] transition hover:text-[#d8832e]"
+              className="text-[14px] font-semibold uppercase tracking-wide text-[#d8832e] transition hover:text-[#d8832e]"
             >
               Home
             </Link>
 
             <Link
               to="/about"
-              className="text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
+              className="text-[14px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
               About
             </Link>
 
             <Link
               to="/hvac"
-              className="flex items-center gap-1 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
+              className="flex items-center gap-1 text-[14px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
-              Building Maintenance
+              HVAC
             </Link>
 
             <Link
               to="/projects"
-              className="flex items-center gap-1 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
+              className="flex items-center gap-1 text-[14px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
               Projects
               <ChevronDown size={16} strokeWidth={2.5} />
@@ -50,14 +50,14 @@ export default function Navbar() {
 
             <Link
               to="/contact"
-              className="text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
+              className="text-[14px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
               Contact
             </Link>
 
             <Link
               to="/register"
-              className="rounded-2xl border-2 border-[#d8832e] px-6 py-3 text-[18px] font-semibold uppercase tracking-wide text-white transition hover:bg-[#d8832e] hover:text-white"
+              className="rounded-2xl border-2 border-[#d8832e] px-6 py-3 text-[14px] font-semibold uppercase tracking-wide text-white transition hover:bg-[#d8832e] hover:text-white"
             >
               Register
             </Link>
