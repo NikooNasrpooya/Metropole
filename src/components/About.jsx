@@ -23,7 +23,7 @@ export default function About() {
       {/* Button */}
       <Link 
       to="/about" 
-      className="mt-16 border-2 border-[#c77a2c] px-10 py-4 text-lg text-gray-700 
+      className="mt-16 inline-block border-2 border-[#c77a2c] px-10 py-4 text-lg text-gray-700 
       transition duration-300 transform hover:scale-105 hover:bg-[#c77a2c] hover:text-white">
         Learn More
       </Link>
