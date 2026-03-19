@@ -20,9 +20,9 @@ export default function Hero() {
           Real estate development, investment, and construction.
         </p>
 
-        <button className=" mt-10 border-2 border-[#d4812e] px-8 py-4 text-md tracking-wider uppercase transition hover:bg-[#d4812e] hover:text-white duration-300 transform hover:scale-110 ">
+        <a href="#projects" className=" mt-10 inline-block border-2 border-[#d4812e] px-8 py-4 text-md tracking-wider uppercase transition hover:bg-[#d4812e] hover:text-white duration-300 transform hover:scale-110 ">
           VIEW ALL PROJECTS
-        </button>
+        </a>
         </div>
         
       </div>

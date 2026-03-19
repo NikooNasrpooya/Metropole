@@ -88,7 +88,7 @@ export default function Projects() {
   }, [isTransitioning]);
 
   return (
-    <section className="bg-white px-6 py-24 md:px-10">
+    <section id="projects" className="bg-white px-6 py-24 md:px-10">
       <h2 className="mb-14 text-center text-3xl tracking-wide text-[#c77a2c] md:text-4xl">
         LATEST PROJECTS
       </h2>

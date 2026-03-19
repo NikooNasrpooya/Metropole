@@ -1,4 +1,7 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
 @layer utilities {
   @keyframes fadeInUp {
     0% {
