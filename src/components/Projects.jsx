@@ -137,7 +137,7 @@ export default function Projects() {
 
                       <p className="mt-1 text-[#c77a2c]">{project.location}</p>
 
-                    <button className="mt-5 translate-y-4 rounded-xl border-2 border-[#c77a2c] px-40 py-2 text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 hover:bg-[#c77a2c]">
+                    <button className="mt-5 translate-y-4 rounded-xl border-2 border-[#c77a2c] px-30 py-2 text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 hover:bg-[#c77a2c]">
                       See Project
                     </button>
                   </div>
