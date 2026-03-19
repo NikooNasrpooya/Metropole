@@ -9,15 +9,13 @@ export default function AboutPage() {
   return (
     <main className="w-full bg-white text-[#222]">
       {/* Hero */}
-      <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden bg-cover bg-center px-6 text-center text-white "
-      style={{ backgroundImage: `url(${about})` }}
+      <section
+        className="relative flex min-h-[55vh] items-center justify-center overflow-hidden bg-cover bg-center px-6 text-center text-white "
+        style={{ backgroundImage: `url(${about})` }}
       >
-        
-
         <div className="absolute inset-0 bg-black/35" />
-        
+
         <div className="relative z-10 animate-fadeInUp">
-        
           <h1 className="text-5xl font-light tracking-wide md:text-6xl">
             About
           </h1>
@@ -48,16 +46,16 @@ export default function AboutPage() {
             construction such as architecture planning and the installations of
             residential, commercial, and industrial buildings. With its unique
             designs, dedication to quality, devotion to detail, and special
-            customer care, Metropole Group adds long-term value to
-            neighborhoods by generating a sense of community through its
-            developments.
+            customer care, Metropole Group adds long-term value to neighborhoods
+            by generating a sense of community through its developments.
           </p>
         </div>
       </section>
 
       {/* We Do Real Estate */}
-      <section className="bg-cover bg-center px-6 py-20 text-center "
-      style={{ backgroundImage: `url(${whatwedo})` }}
+      <section
+        className="bg-cover bg-center px-6 py-20 text-center "
+        style={{ backgroundImage: `url(${whatwedo})` }}
       >
         <div className="mx-auto max-w-6xl">
           <div className="animate-fadeIn">
@@ -67,7 +65,7 @@ export default function AboutPage() {
             <div className="mx-auto mt-5 h-[1px] w-28 bg-gray-400" />
           </div>
 
-          <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-3">
+          <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-3 lg:grid-cols-4">
             <div className="animate-fadeIn">
               <h3 className="text-6xl font-light text-[#d8832e]">1.</h3>
               <p className="mt-4 text-xl text-white">Development</p>
@@ -82,13 +80,19 @@ export default function AboutPage() {
               <h3 className="text-6xl font-light text-[#d8832e]">3.</h3>
               <p className="mt-4 text-xl text-white">Construction</p>
             </div>
+
+            <div className="animate-fadeIn">
+              <h3 className="text-6xl font-light text-[#d8832e]">4.</h3>
+              <p className="mt-4 text-xl text-white">
+                HVAC, Mechanical & Building Maintenance
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Values & Mission */}
-      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-20 md:grid-cols-2 md:px-10 lg:px-16"
-      >
+      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-20 md:grid-cols-2 md:px-10 lg:px-16">
         <div className="flex flex-col justify-center animate-fadeIn">
           <h2 className="text-3xl font-light tracking-wide md:text-4xl">
             OUR VALUES &amp; MISSION
@@ -112,8 +116,9 @@ export default function AboutPage() {
       </section>
 
       {/* Vision */}
-      <section className="bg-cover bg-center px-6 py-24"
-      style={{ backgroundImage: `url(${vision})` }}
+      <section
+        className="bg-cover bg-center px-6 py-24"
+        style={{ backgroundImage: `url(${vision})` }}
       >
         <div className="bg-white/60 backdrop-blur-5xsm mx-auto max-w-2xl animate-fadeInUp p-8 shadow-sm md:p-14">
           <h2 className="text-3xl font-light text-[#1f1f1f] md:text-4xl">
