@@ -7,9 +7,9 @@ import values from "../assets/values.png";
 
 export default function AboutPage() {
   return (
-    <main className="w-full bg-white text-[#222]">
+    <main  className="w-full bg-white text-[#222]">
       {/* Hero */}
-      <section
+      <section 
         className="relative flex min-h-[55vh] items-center justify-center overflow-hidden bg-cover bg-center px-6 text-center text-white "
         style={{ backgroundImage: `url(${about})` }}
       >

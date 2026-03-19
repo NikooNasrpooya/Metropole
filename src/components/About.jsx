@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <section className="bg-white py-28 px-6 text-center">
@@ -20,10 +21,12 @@ export default function About() {
       </p>
 
       {/* Button */}
-      <button className="mt-16 border-2 border-[#c77a2c] px-10 py-4 text-lg text-gray-700 
+      <Link 
+      to="/about" 
+      className="mt-16 border-2 border-[#c77a2c] px-10 py-4 text-lg text-gray-700 
       transition duration-300 transform hover:scale-105 hover:bg-[#c77a2c] hover:text-white">
         Learn More
-      </button>
+      </Link>
 
     </section>
   );

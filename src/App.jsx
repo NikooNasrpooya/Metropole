@@ -9,6 +9,7 @@ import AboutPage from "./pages/AboutPage";
 import Projects from "./components/Projects";
 import ContactPage from "./pages/ContactPage";
 import HvacPage from "./pages/HvacPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 // function Register() {
 //   return <h1>Register Page</h1>;
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
