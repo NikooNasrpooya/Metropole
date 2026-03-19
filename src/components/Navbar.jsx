@@ -41,12 +41,12 @@ export default function Navbar() {
               <ChevronDown size={16} strokeWidth={2.5} />
             </Link>
 
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="text-[18px] font-semibold uppercase tracking-wide text-white transition hover:text-[#d8832e]"
             >
               Contact
-            </a>
+            </Link>
 
             <Link
               to="/register"

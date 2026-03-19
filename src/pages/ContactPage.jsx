@@ -1,4 +1,4 @@
-import contactHero from "../assets/contact.png";
+import contact from "../assets/contact.png";
 import {
   Phone,
   MapPin,
@@ -32,7 +32,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section
         className="relative flex min-h-[55vh] items-center justify-center overflow-hidden bg-cover bg-center px-6 text-center text-white"
-        style={{ backgroundImage: `url(${contactHero})` }}
+        style={{ backgroundImage: `url(${contact})` }}
       >
         <div className="absolute inset-0 bg-black/40" />
 
