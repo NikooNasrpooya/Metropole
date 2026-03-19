@@ -1,7 +1,7 @@
-import Header from "../components/header";
+import Header from "../components/Header";
 import About from "../components/About";
 import Projects from "../components/Projects";
-import Featured from "../components/featured";
+import Featured from "../components/Featured";
 import Register from "../components/Register";
 
 export default function HomePage() {
